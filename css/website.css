@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #ffeb95;
+  --secondary-color: #9f473d;
+}
+.margin_fix{
+    margin: 30px 0;
+}
+.website_title {
+  font-size: 30px;
+  color: var(--secondary-color);
+  font-weight: 700;
+  margin: 30px auto 30px;
+  text-align: center;
+  position: relative;
+}
+.title-heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+
+.about-us_desc {
+  margin-top: 22px;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.title-2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #333;
+}
+
+.website_ct{
+    display: flex;
+    justify-content: center;
+    column-gap: 90px;
+}
+
+@media (max-width: 767.98px){
+    .website_ct{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
