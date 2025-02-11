@@ -1,0 +1,133 @@
+:root {
+    --primary-color: #ffeb95;
+    --secondary-color: #9f473d;
+  }
+.bold{
+    font-weight: 600;
+}
+.fix_mb30px{
+    margin-bottom: 30px;
+}
+
+.fix_mt40px{
+    margin-top: 40px;
+}
+.fix_mt80px{
+    margin-top: 80px;
+}
+.info-detail{
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+}
+.image-details{
+    width: 40%;
+
+}
+.img-details{
+    height: 470px;
+    width: 100%;
+}
+.main-content_detail{
+    margin-top: 30px;
+}
+.title-detail{
+    font-size: 18px;
+    color: var(--secondary-color);
+    text-decoration: underline;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.detail-product_name{
+    font-size: 24px;
+    color: var(--secondary-color);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.detail-desc > p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.policy-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.detail_content-policy{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-detail_policy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    background-color: #9f473d;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.product-relate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 24px;
+    margin: 40px 0;
+}
+
+.detail-name_pr{
+    font-size: 20px;
+    color: var(--secondary-color);
+    font-weight: 600;
+    text-align: center;
+}
+
+
+/* news */
+
+.news-detail{
+    margin-bottom: 40px;
+}
+.news-title_detail{
+    font-size: 32px;
+    color: var(--secondary-color);
+    font-weight: 600;
+    margin: 30px auto ;
+    text-align: center;
+}
+.news_desc-detail{
+    font-size: 20px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.news-heading{
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.news-detail >ul {
+    list-style: disc;
+    margin: 20px 0 20px 30px;
+}
+
+.news-detail > img{
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.desc-img{
+    text-align: center;
+    font-size: 14px;
+    color: #867e7e;
+    font-style: italic;
+}
